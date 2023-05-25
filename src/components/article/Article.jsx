@@ -1,6 +1,7 @@
 import "./article.css";
 
 const Article = ({ imageUrl, date, text }) => {
+  console.log(imageUrl);
   return (
     <div className="gpt3__blog-container_article">
       <div className="gpt3__blog-container_article-image">
